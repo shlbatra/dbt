@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: test123
+    description: "bank table"
+    database: strange-math-385919
+    tables:
+      - name: bank_subset
+        columns:
+          - name: CLIENTNUM
+            datatype: INTEGER
+            description: ""
+          - name: Attrition_Flag
+            datatype: STRING
+            description: ""
+          - name: Customer_Age
+            datatype: INTEGER
+            description: ""

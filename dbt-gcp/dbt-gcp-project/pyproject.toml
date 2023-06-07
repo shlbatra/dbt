@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "analytics-gcp"
+version = "0.1.0"
+description = ""
+authors = ["Sahil Batra <shlbatra123@gmail.com>"]
+readme = "README.md"
+packages = [{include = "analytics_gcp"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt-bigquery = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

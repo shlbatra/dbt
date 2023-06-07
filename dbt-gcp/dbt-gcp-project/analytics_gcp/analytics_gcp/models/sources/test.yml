@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: test
+    description: "iris table"
+    database: terraform-385919
+    tables:
+      - name: iris
+        columns:
+          - name: sepal_length
+            datatype: FLOAT
+            description: ""
+          - name: sepal_width
+            datatype: FLOAT
+            description: ""
+          - name: petal_length
+            datatype: FLOAT
+            description: ""
+          - name: petal_width
+            datatype: FLOAT
+            description: ""
+          - name: species
+            datatype: FLOAT
+            description: ""
